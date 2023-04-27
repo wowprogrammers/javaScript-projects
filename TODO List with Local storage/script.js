@@ -77,6 +77,16 @@ function deleteTask(deleteId,filter){
     showTodo(filter);
 }
 
+// Clear All Tasks
+
+clearBtn.addEventListener('click',function(){
+    editTaskStatus = false;
+    // splice method mutate the todos ... 
+    todos.splice(0,todos.length);
+    localStorage.setItem("todosList",JSON.stringify(todos));
+    showTodo();
+})
+
 
 
 // Creating Function for showTodo

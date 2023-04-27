@@ -21,3 +21,7 @@ delete task
 edit task
 
 applying filters
+
+MileStone 3
+
+Last Functionality of "Clear All" tasks  
