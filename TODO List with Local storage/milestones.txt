@@ -2,6 +2,22 @@ Welcome Back To #Coder #Dost #Family
 #javascript #Project #Series
 
 
-Coder's TODO List Project 2
+Coder's TODO List with "local" "storage" Project 2 Completed
 
+MileStone 1 
 
+Creating addEventListener for taskInput
+
+Create function for showTodo
+
+MileStone 2 Finish the Project
+
+show menu
+
+update status
+
+delete task
+
+edit task
+
+applying filters
