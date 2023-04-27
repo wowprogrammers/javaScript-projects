@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Coder's Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Font Awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    
+    <header>
+        <h1 class="heading" >Let's Create Coder's Todo List Together</h1>
+    </header>
+
+    <div class="container">
+      <div class="taskInput">
+        <img src="./images/menuBar.png" alt="">
+        <input type="text" placeholder="Lets Add New Coder Task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clearBtn">Clear All</button>
+      </div>
+      <ul class="taskBox"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
