@@ -91,15 +91,15 @@ header i{
   height: 1px;
   width: 100%;
   margin: 25px 0;
-  background: #ccc;
+  background: #0da1ac;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .separator::before{
-  content: "or";
-  color: #b3b3b3;
+  content: "";
+  color: #9b7272;
   font-size: 19px;
   padding: 0 15px;
   background: #fff;
