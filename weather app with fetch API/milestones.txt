@@ -3,5 +3,28 @@ Welcome Back To #Coder #Dost #Family
 
 
 
-Coder's Weather App  with fetch API Project 3 
+Coder's Weather App with fetch API Project 3 
 
+
+Weather API
+
+https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ec8b18813323f6dca2ed95bef6dcbfcd
+
+This is your Api key "ec8b18813323f6dca2ed95bef6dcbfcd"
+
+You can get this by registering yourself on "openweathermap"
+
+otherwise you will get error
+
+For Clear
+./Icons/icons-sun.png
+For snow
+./Icons/icons-snow.png
+For Haze
+./Icons/icons-haze.png
+For cloud
+./Icons/icons-cloud.png"
+For rainfall
+./Icons/icons-rainfall.png
+For Storm
+./Icons/icons-cloud-lightning.png
