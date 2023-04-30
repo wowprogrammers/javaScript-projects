@@ -2,4 +2,12 @@ Welcome Back To #Coder #Dost #Family
 #javascript #Project #Series
 
 
-Currency Convertor Project Project 4
+Currency Convertor with fetch API Project  4
+
+
+Assets
+
+API https://api.apilayer.com/exchangerates_data/convert?to=to&from=from&amount=amount
+
+API KEY  3tVaeaLRKuFWFKzKlM5yL34YJVpPkXDP
+
