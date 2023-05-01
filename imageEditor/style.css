@@ -1,0 +1,204 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bruno Ace SC', cursive;
+}
+body{
+  display: flex;
+  padding: 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #e0bf02;
+  background-image: url('./Images/image1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  width: 850px;
+  padding: 30px 35px 35px;
+  background: #706429;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.container.disable .editorPannel,
+.container.disable .controls .resetFilters,
+.container.disable .controls .save-img{
+  opacity: 0.5;
+  pointer-events: none;
+}
+.container h2{
+  margin-top: -8px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+.container .childContainer{
+  display: flex;
+  margin: 20px 0;
+  min-height: 335px;
+}
+.childContainer .editorPannel{
+  padding: 15px 20px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.editorPannel .title{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: white;
+ 
+}
+.editorPannel .options, .controls{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.filter .title{
+  color: #f5f5f5;
+}
+.editorPannel button{
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  color: #c3d3e0;
+  background: #212801;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  border: 1px solid #aaa;
+}
+.editorPannel .filter button{
+  width: calc(100% / 2 - 4px);
+}
+.editorPannel button:hover{
+  background: #f5f5f5;
+  color: #212801;
+  cursor: pointer;
+}
+.filter button.active{
+  color: #fff;
+  border-color: #939cc1;
+  background: #8ea914;
+}
+.filter .slider{
+  margin-top: 12px;
+}
+.slider .name{
+  color: white;
+}
+.slider .value{
+  color: white;
+}
+.filter .slider .filterInfo{
+  display: flex;
+  color: #464646;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.filter .slider input{
+  width: 100%;
+  height: 5px;
+  accent-color: #53f08a;
+  cursor: pointer;
+}
+.editorPannel .rotate{
+  margin-top: 17px;
+}
+.editorPannel .rotate button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4 - 3px);
+}
+.rotate .options button:nth-child(3),
+.rotate .options button:nth-child(4){
+  font-size: 18px;
+}
+.rotate .options button:active{
+  color: #fff;
+  background: #050712;
+  border-color: #212801;
+}
+.childContainer .previewImg{
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.previewImg img{
+  max-width: 490px;
+  max-height: 335px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.controls button{
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+.controls .resetFilters{
+  color: #212801;
+  border: 1px solid #6C757D;
+  cursor: pointer;
+
+}
+.controls .resetFilters:hover{
+  color: #fff;
+  background: #6C757D;
+}
+.controls .chooseImg{
+  background: #6C757D;
+  border: 1px solid #6C757D;
+}
+.controls .saveImg{
+  margin-left: 5px;
+  background: #212801;
+  border: 1px solid #212801;
+}
+
+@media screen and (max-width: 760px) {
+  .container{
+    padding: 25px;
+  }
+  .container .childContainer{
+    flex-wrap: wrap-reverse;
+  }
+  .childContainer .editorPannel{
+    width: 100%;
+  }
+  .childContainer .previewImg{
+    width: 100%;
+    margin: 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .controls button{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .controls .row{
+    width: 100%;
+  }
+  .controls .row .save-img{
+    margin-left: 0px;
+  }
+}
