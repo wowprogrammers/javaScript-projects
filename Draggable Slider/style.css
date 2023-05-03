@@ -63,6 +63,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+/* Most Important */
 .imgContainer.dragging {
   scroll-behavior: auto;
   cursor: grab;
