@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="javascript project with coder dost family"
+    />
+    <meta
+      name="keywords"
+      content="Event Planner Calender javascript coder dost"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+      
+    <link rel="stylesheet" href="style.css" />
+    <title>Coder's Calender with Events</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">April 2022</div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+          <div class="gotoToday">
+            <div class="goto">
+              <input type="text" placeholder="mm/yyyy" class="dateInput" />
+              <button class="gotoBtn">Go</button>
+            </div>
+            <button class="todayBtn">Today</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="todayDate">
+          <div class="eventDay">wed</div>
+          <div class="eventDate">12th April 2023</div>
+        </div>
+        <div class="events"></div>
+        <div class="addEventWrapper">
+          <div class="addEventHeader">
+            <div class="title">Add Event</div>
+            <i class="fas fa-times close"></i>
+          </div>
+          <div class="addEventBody">
+            <div class="addEventInput">
+              <input type="text" placeholder="Event Name" class="eventName" />
+            </div>
+            <div class="addEventInput">
+              <input
+                type="text"
+                placeholder="Event Time From"
+                class="eventTimeFrom"
+              />
+            </div>
+            <div class="addEventInput">
+              <input
+                type="text"
+                placeholder="Event Time To"
+                class="eventTimeTo"
+              />
+            </div>
+          </div>
+          <div class="addEventFooter">
+            <button class="addEventBtn">Add Event</button>
+          </div>
+        </div>
+      </div>
+      <button class="addEvent">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
