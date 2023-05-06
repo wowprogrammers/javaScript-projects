@@ -3,3 +3,34 @@ Welcome Back To #Coder #Dost #Family
 
 
 Coder's Event Planner Project 
+
+Milestone 1 Initialize Your Calender
+
+Milestone 2 Function to "active" "specific day" we clicked on
+
+Milestone 3 Today button , prev,next button working
+
+Milestone 4 Date input (Go to Any Specific Date)
+
+Milestone 5 Add event into the eventsArray
+
+
+`<div class="event">
+            <div class="title">
+              <i class="fas fa-circle"></i>
+              <h3 class="eventTitle">${}</h3>
+            </div>
+            <div class="eventTime">
+              <span class="eventTime">${}</span>
+            </div>
+        </div>`
+
+
+Milestone 6 Start Working on event container 
+showing all events etc
+
+Milestone 7 Save Your Events in local storage and get Events from local storage
+
+Last Milestone 
+
+Delete Event from event Container
