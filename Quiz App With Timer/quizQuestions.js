@@ -52,11 +52,11 @@ let questions = [
     {
     numb: 5,
     question: "Which HTML tag we can use to add image in html?",
-    answer: "<img src = ''>",
+    answer: "img",
     options: [
-      "<img src = ''>",
-      "<image src = ''>",
-      "<img source = ''>",
+      "image",
+      "imge",
+      "img",
       "None"
     ]
   },

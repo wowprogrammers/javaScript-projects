@@ -5,3 +5,15 @@ Welcome Back To #Coder #Dost #Family
 Quiz App With timer in Javascript Project 
 
 Milestone 1 Basic Code in javascript
+
+Milestone 2 timerStart() function timerStartLine() questionCounter() Completed
+
+`<div class = "icon tick"><i class = "fas fa-check"></i></div>`
+`<div class = "icon cross"><i class = "fas fa-times"></i></div>`
+
+
+Milestone 3
+
+nextQuestionBtn() function
+restart quiz
+quit quiz
