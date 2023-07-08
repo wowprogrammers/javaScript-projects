@@ -6,7 +6,6 @@ let weatherBtn = document.querySelector('.weatherBtn');
 
 let weatherPart = document.querySelector('.weatherPart');
 
-
 let weatherIcon = weatherPart.querySelector('img');
 let backArrow = document.querySelector('header i');
 
@@ -32,7 +31,7 @@ weatherBtn.addEventListener('click',()=>{
 // API Call Function
 
 function requestAPI(city){
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ec8b18813323f6dca2ed95bef6dcbfcd`;
+    api = `Enter Your API`;
     infoTxt.innerText = "Getting Details of weather";
     infoTxt.classList.add("pending");
 
