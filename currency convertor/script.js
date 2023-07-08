@@ -69,7 +69,7 @@ function exchangeRate(){
         headers:headers
     }
     
-    let apiUrl = `https://api.apilayer.com/exchangerates_data/convert?to=${toCurrency.value}&from=${fromCurrency.value}&amount=${amountValue}`;
+    let apiUrl = `Enter Your API URL`
     fetch(apiUrl,requestOptions).then(res => res.json()).then(output =>{
         console.log(output)
         let exchangedAmount = output.result;
@@ -81,18 +81,6 @@ function exchangeRate(){
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 // Exchange Icon
 let exchangeIcon = document.querySelector('.container .icon');
 exchangeIcon.addEventListener('click',()=>{
